@@ -1,12 +1,12 @@
 pipeline {
     agent any
     environment {  
-        DOCKER_HUB_LOGIN = credentials('docker-hub-roxs')
+        DOCKER_HUB_LOGIN = credentials('docker-hub-oscar')
     }
     stages {
         stage('Automation') {
             steps {
-               sh 'git clone -b master https://github.com/roxsross/automation.git'
+               sh 'git clone -b main https://github.com/oskofo2022/Automation.git'
             }
         }
         stage('install dependencies') {
