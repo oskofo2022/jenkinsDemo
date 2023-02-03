@@ -36,6 +36,7 @@ pipeline {
         } 
         stage('Docker Build') {
             steps {
+               sh 'ls /automation/docker_build.sh'
                sh './automation/docker_build.sh'
             }
         }
