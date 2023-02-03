@@ -1,0 +1,17 @@
+{
+    "environments":{
+        "master":{
+            "EC2INSTANCE":"ec2-user@3.238.93.59",
+            "Author":"RoxsRoss"
+        },
+        "testing":{
+            "EC2INSTANCE":"ec2-user@3.238.14.130",
+            "Author":"RoxsRoss"
+        },
+        "develop":{
+            "EC2INSTANCE":"ec2-user@34.205.92.61",
+            "Author":"RoxsRoss"
+        }
+
+    }
+}
